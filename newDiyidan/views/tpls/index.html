@@ -1,0 +1,97 @@
+<div class="index-container">
+    <header>
+    	<nav>
+    		<img class="index-log" src="image/logon.png">
+    		<div class="index-right">
+    			<div class="index-nav">
+    				<li><a>首页</a></li>
+    				<li><a>热区</a></li>
+    			</div>
+    			<div class="index-spot">
+	    			<div class="index-me">
+	    				<img class="index-pic"src="image/pic.png">
+	    				<span><a>任泽..</a></span>
+	    				<span><a class="out">退出</a></span>
+	    			</div>
+	    			<div class="index-me my-spot">
+	    				
+	    			</div>
+    			</div>
+    		</div>
+    	</nav>
+    </header>
+    <div class="middle">
+    	<div id="banner_tabs" class="flexslider">
+			<ul class="slides">
+				<li>
+					<a title="" target="_blank" href="#">
+						<img  alt="" style="background: url(./image/banner1.png) no-repeat center;" src="./image/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img alt="" style="background: url(./image/banner2.png) no-repeat center;" src="./image/alpha.png">
+					</a>
+				</li>
+				<li>
+					<a title="" href="#">
+						<img  alt="" style="background: url(./image/banner3.png) no-repeat center;" src="./image/alpha.png">
+					</a>
+				</li>
+			</ul>
+			<ul class="flex-direction-nav">
+				<li><a class="flex-prev" href="javascript:;">Previous</a></li>
+				<li><a class="flex-next" href="javascript:;">Next</a></li>
+			</ul>
+			<ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+				<li><a>1</a></li>
+				<li><a>2</a></li>
+				<li><a>2</a></li>
+			</ol>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/slider.js"></script>
+<script type="text/javascript">
+$(function() {
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+		bannerSlider.prev()
+	});
+	$('#banner_tabs .flex-next').click(function() {
+		bannerSlider.next()
+	});
+})
+</script>
+    </div>
+    <footer></footer>
+</div>
