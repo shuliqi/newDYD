@@ -1,0 +1,85 @@
+/*/* ÀÁÈËÍ¼¿â ËÑ¼¯ÕûÀí www.lanrentuku.com */
+.view {  
+  width: 240px;
+  height: 177px;
+/*  margin: 6px 0px;*/
+  float: left;
+
+ /* padding: 5px;*/
+   margin-left: 10px;
+    z-index: 444;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  cursor: default;
+}
+.view .mask, .view .content { 
+  width: 240px;
+  height: 177px;
+  position: absolute; 
+  overflow: hidden; 
+  top: 0px; left: 0px; 
+    border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -o-border-radius: 7px;
+  -moz-border-radius: 7px;
+}
+.view img { 
+   display: block; 
+   position: relative; 
+}
+
+
+/* FIFTH EFFECTS */
+.fifth-effect img {
+   width: 240px;
+   height: 180px;
+/*	opacity:0.2;*/
+/*	-moz-transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;*/
+}
+.fifth-effect .mask {
+/*    margin-left: 5px;
+    margin-top: 5px;*/
+   cursor:pointer;
+
+   visibility:visible;
+/*   border:100px solid rgba(0,0,0,0.7);*/
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   box-sizing:border-box;
+   -moz-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+   -webkit-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+   -o-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+   -ms-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+   transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+    background: url("../image/hot_01.png") no-repeat center;
+}
+.fifth-effect .mask2{
+   background: url("../image/hot_02.png") no-repeat center;
+}
+.fifth-effect .mask3{
+   background: url("../image/hot_03.png") no-repeat center;
+}
+.fifth-effect .mask4{
+   background: url("../image/hot_04.png") no-repeat center;
+}
+.fifth-effect:hover .mask {
+ /* background: url("../image/hot_01.png") no-repeat center;*/
+  transform: scale(1.2, 1.2);
+  -ms-transform:scale(1.2, 1.2);  /* IE 9 */
+  -moz-transform:scale(1.2, 1.2);   /* Firefox */
+  -webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
+  -o-transform:scale(1.2, 1.2);   /* Opera 
+/*  visibility:hidden;*/
+}
+.botton{
+  margin-top: 10px;
+}
