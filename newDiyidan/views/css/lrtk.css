@@ -6,7 +6,7 @@
   float: left;
 
  /* padding: 5px;*/
-   margin-left: 10px;
+   margin-left: 5px;
     z-index: 444;
   overflow: hidden;
   position: relative;
@@ -33,7 +33,9 @@
    position: relative; 
 }
 
-
+.fifth2,.fifth4{
+  margin-left: 15px;
+}
 /* FIFTH EFFECTS */
 .fifth-effect img {
    width: 240px;
@@ -55,11 +57,11 @@
    -moz-box-sizing:border-box;
    -webkit-box-sizing:border-box;
    box-sizing:border-box;
-   -moz-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+  /* -moz-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
    -webkit-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
    -o-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
    -ms-transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
-   transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);
+   transition: all 0.4s cubic-bezier(0.940, 0.850, 0.100, 0.620);*/
     background: url("../image/hot_01.png") no-repeat center;
 }
 .fifth-effect .mask2{
@@ -71,15 +73,46 @@
 .fifth-effect .mask4{
    background: url("../image/hot_04.png") no-repeat center;
 }
-.fifth-effect:hover .mask {
+.fifth1:hover .mask1 {
  /* background: url("../image/hot_01.png") no-repeat center;*/
-  transform: scale(1.2, 1.2);
-  -ms-transform:scale(1.2, 1.2);  /* IE 9 */
-  -moz-transform:scale(1.2, 1.2);   /* Firefox */
-  -webkit-transform:scale(1.2, 1.2); /* Safari 和 Chrome */
-  -o-transform:scale(1.2, 1.2);   /* Opera 
+/*  transform: scale(1.2, 1.2);*/
+  /*-ms-transform:scale(1.2, 1.2);*/  /* IE 9 */
+  /*-moz-transform:scale(1.2, 1.2);   *//* Firefox */
+  /*-webkit-transform:scale(1.2, 1.2); *//* Safari 和 Chrome */
+  /*-o-transform:scale(1.2, 1.2); */  /* Opera 
 /*  visibility:hidden;*/
+ background: url("../image/hot_01_hover.png") no-repeat center;
+}
+.fifth2:hover .mask2 {
+ /* background: url("../image/hot_01.png") no-repeat center;*/
+/*  transform: scale(1.2, 1.2);*/
+  /*-ms-transform:scale(1.2, 1.2);*/  /* IE 9 */
+  /*-moz-transform:scale(1.2, 1.2);   *//* Firefox */
+  /*-webkit-transform:scale(1.2, 1.2); *//* Safari 和 Chrome */
+  /*-o-transform:scale(1.2, 1.2); */  /* Opera 
+/*  visibility:hidden;*/
+ background: url("../image/hot_02_hover.png") no-repeat center;
+}
+.fifth3:hover .mask3 {
+ /* background: url("../image/hot_01.png") no-repeat center;*/
+/*  transform: scale(1.2, 1.2);*/
+  /*-ms-transform:scale(1.2, 1.2);*/  /* IE 9 */
+  /*-moz-transform:scale(1.2, 1.2);   *//* Firefox */
+  /*-webkit-transform:scale(1.2, 1.2); *//* Safari 和 Chrome */
+  /*-o-transform:scale(1.2, 1.2); */  /* Opera 
+/*  visibility:hidden;*/
+ background: url("../image/hot_03_hover.png") no-repeat center;
+}
+.fifth4:hover .mask4 {
+ /* background: url("../image/hot_01.png") no-repeat center;*/
+/*  transform: scale(1.2, 1.2);*/
+  /*-ms-transform:scale(1.2, 1.2);*/  /* IE 9 */
+  /*-moz-transform:scale(1.2, 1.2);   *//* Firefox */
+  /*-webkit-transform:scale(1.2, 1.2); *//* Safari 和 Chrome */
+  /*-o-transform:scale(1.2, 1.2); */  /* Opera 
+/*  visibility:hidden;*/
+ background: url("../image/hot_04_hover.png") no-repeat center;
 }
 .botton{
-  margin-top: 10px;
+  margin-top: 16px;
 }
