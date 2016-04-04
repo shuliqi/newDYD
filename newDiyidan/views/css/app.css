@@ -318,15 +318,15 @@ html,body{
 	margin:30px auto;
 }
 /*全体清楚浮动*/
-.type:before,.type:after,.da-thumbs:before,.da-thumbs:after,.yuan_img:after,.middle_nav li:after,.middle_nav a:after,.my_tiezhi_content:after{
+.my_middle:after,.type:before,.type:after,.da-thumbs:before,.da-thumbs:after,.yuan_img:after,.middle_nav li:after,.middle_nav a:after,.my_tiezhi_content:after{
 	display: table;
 	content: '';
 }
-.type:after,.da-thumbs:after,.yuan_img:after,.middle_nav a:after,.middle_nav li:after,.my_tiezhi_content:after,.my_cellection:after,.middle_right:after{
+.my_middle:after,.type:after,.da-thumbs:after,.yuan_img:after,.middle_nav a:after,.middle_nav li:after,.my_tiezhi_content:after,.my_cellection:after,.middle_right:after,.middle_nav_top:after,.middle_nav_top ul li:after{
 	clear: both;
 	overflow: hidden;
 }
-.type,.da-thumbs,.yuan_img,.middle_nav a,.middle_nav li,.my_tiezhi_content,.my_cellection,.middle_right{
+.my_middle,.type,.da-thumbs,.yuan_img,.middle_nav a,.middle_nav li,.my_tiezhi_content,.my_cellection,.middle_right,.middle_nav_top,.middle_nav_top ul li{
 	zoom: 1;
 }
 /*全体清楚浮动结束*/
@@ -1412,10 +1412,10 @@ body {
 .my_middle{
 	width: 100%;
 /*	height: 200px;*/
-	background: #fff;
 	margin-top: -20px;
 }
 .middle_left{
+	margin-bottom: 30px;
 	width: 700px;
 	background: #fff;
 	float: left;
@@ -1448,6 +1448,9 @@ body {
 	color: #fe7780;
 	border-bottom: 2px solid #fe7780;
 }
+/*.my_01:hover img{
+	background: url("../image/my_20.png") no-repeat !important;
+}*/
 .middle_nav img,.middle_nav p{
 	display: block;
 	float: left;
@@ -1569,6 +1572,7 @@ body {
 /*个人帖子结束*/
 .my_cellection{
 	width: 100%;
+	margin-bottom: 50px;
 	margin-top: 35px;
     border-top: 1px solid #ccc;
 }
@@ -1591,5 +1595,109 @@ body {
 .middle_nav_top p,.middle_nav_top span{
 	display: block;
 	float: left;
+	color: #7f7f7f;
 	font-size: 12px;
 }
+.middle_nav_top{
+	width: 75%;
+    height: 40px;
+  	float: left;
+}
+
+.middle_nav_top span{
+	  width: 25px;
+	  height: 16px;
+	  border-radius: 10px;
+	  -webkit-border-radius: 5px;
+	  -o-border-radius: 10px;
+	  -moz-border-radius: 10px;
+	  background: #fe7780;
+	  text-align: center;
+	  color: #fff;
+	  margin-top: 7px;
+	  margin-left: 11px;
+}
+.middle_sum{
+	float: right !important;
+}
+.middle_nav_top div{
+	display: block;
+    width: 94%;
+    float: right;
+    height: 8px;
+    margin-top: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid #fe7780;
+}
+.middle_nav_top div span{
+	display: block;
+	width: 24%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	background: #fe7780;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+.middle_one {
+	 border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.my_fensi{
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+/*	background: red;*/
+}
+.middle_right_top{
+	width: 100%;
+}
+.middle_right_top  .my_fenqu_top_all{
+	width: 40%;
+}
+.middle_right_top  .my_fenqu_top_all img{
+	margin-left: 8px;
+}
+.right_content{
+	width: 90%;
+	margin: 0px auto;
+}
+.right_content li{
+	display: block;
+	height: 50px;
+	list-style: none;
+	width: 100%;
+}
+.right_content img{
+	display: block;
+	width: 45px;
+	height: 45px;
+	float: left;
+	 border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+.right_content p{
+	font-size: 12px;
+	color: #5c5c5c;
+	display: block;
+    float: left;
+    margin-left: 4%;
+    line-height: 50px;
+}
+.my_class_one_click{
+	background: url("../image/my_20.png");
+	color: #fe7780;
+}
+/*个人主页写完*/
