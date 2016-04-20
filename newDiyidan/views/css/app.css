@@ -19,7 +19,7 @@ html,body{
 }
 .index-container header{
 	width: 100%;
-	height: 80px;
+	height: 60px;
 	background: #fff;
 	overflow: hidden;
 	position: fixed;
@@ -28,7 +28,7 @@ html,body{
 .index-container nav{
 	max-width: 1000px;
 	height: 60px;
-	margin: 10px auto;
+	margin: 0px auto;
 }
 .index-container nav .index-log{
 	width: 110px;
@@ -54,7 +54,7 @@ html,body{
 	float: left;
 	width: 80px;
 	text-align: center;
-	height: 56px;
+	height: 46px;
 	line-height: 45px;
 	color: 
 	font-size: 20px;
@@ -315,7 +315,7 @@ html,body{
 /*精选视频，推荐，热区共同部分*/
 .type{
 	width: 100%;
-	margin:30px auto;
+	margin: 15px auto;
 }
 /*全体清楚浮动*/
 .my_middle:after,.type:before,.type:after,.da-thumbs:before,.da-thumbs:after,.yuan_img:after,.middle_nav li:after,.middle_nav a:after,.my_tiezhi_content:after{
@@ -336,6 +336,7 @@ html,body{
 	-webkit-border-radius: 15px;
 	-o-border-radius: 15px;
 	-moz-border-radius: 15px;
+	 margin-top: 30px;
 }
 /*精选视频，推荐，热区共同部分结束*/
 
@@ -441,7 +442,9 @@ html,body{
   background-color: rgba(0, 0, 0, 0);
   color: rgb(250, 112, 118);
 }
-
+.Hot {
+	margin-top: -25px !important;
+}
 
 /*精品推荐结束*/
 
@@ -672,7 +675,7 @@ html,body{
 .yuansheng{
 	width: 100%;
 	height: 515px;
-	margin:30px auto;
+	margin: -10px auto;
 }
 .personal{
 	width: 488px;
@@ -830,14 +833,14 @@ footer{
 }
 .footer{
 	width: 1000px;
-	height: 400px;
-	margin: 0px auto;
+	height: 340px;
+	margin: -30px auto;
 }
 .foo{
 	display: block;
 	width: 50%;
 	height: 280px;
-	margin-top: 60px;
+	margin-top: 25px;
 	float: left;
 /*	background: blue;*/
 }
